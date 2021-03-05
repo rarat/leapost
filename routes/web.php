@@ -21,3 +21,7 @@ Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::get('/dashboard', [App\Http\Controllers\AdminController::class, 'dashboard'])->name('dashboard');
+Route::get('/course', [App\Http\Controllers\AdminController::class, 'course'])->name('course');
+Route::get('/employee', [App\Http\Controllers\AdminController::class, 'employee'])->name('employee');
+Route::get('/category', [App\Http\Controllers\AdminController::class, 'category'])->name('category');
+Route::get('/instructure', [App\Http\Controllers\AdminController::class, 'instructure'])->name('instructure');
