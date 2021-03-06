@@ -366,25 +366,25 @@
             <div>
                 <div class="uk-card-default uk-card-hover uk-card-body rounded-lg  animate-this">
                     <img src="assets/images/demos/demo-home-icon-ready.png" class="scale-up-medium mb-3" width="100" alt="">
-                    <p> Ready to use </p>
+                    <p> Operasi </p>
                 </div>
             </div>
             <div>
                 <div class="uk-card-default uk-card-hover uk-card-body rounded-lg animate-this">
                     <img src="assets/images/demos/demo-home-icon-ui.png" class="scale-up-medium mb-3" width="100" alt="">
-                    <p> Premium UI </p>
+                    <p> Akhlak </p>
                 </div>
             </div>
             <div>
                 <div class="uk-card-default uk-card-hover uk-card-body rounded-lg animate-this">
                     <img src="assets/images/demos/demo-home-icon-responsive.png" class="scale-up-medium mb-3" width="100" alt="">
-                    <p>  Responsive </p>
+                    <p>  Penjualan </p>
                 </div>
             </div>
             <div>
                 <div class="uk-card-default uk-card-hover uk-card-body rounded-lg animate-this">
                     <img src="assets/images/demos/demo-home-icon-fast.png" class="animate-this mb-3" width="100" alt="">
-                    <p> Time Saving</p>
+                    <p> Jasa Kurir</p>
                 </div>
             </div>
         </div>
@@ -395,57 +395,9 @@
         <div class="container-small">
 
             <div class="uk-text-center mt-lg mb-3 my-sm-2">
-                <h2>Explore our demos </h2>
+                <h2>Kata Mereka </h2>
                 <hr class="uk-divider-small">
-                <p>Explore our landing page demos on different kind of topics. More <br> demos are coming soon. </p>
-            </div>
-
-            <div class="uk-child-width-1-2@m uk-child-width-1-2@s uk-flex-center mt-lg-5 uk-grid-large demo-cards"
-                uk-scrollspy="target: > div; cls: uk-animation-slide-bottom-small; delay: 100" uk-grid>
-
-                <div>
-
-                    <div class="uk-card-default uk-inline-clip">
-                        <img src="assets/images/demos/d-default.png" alt="">
-                        <div class="uk-flex uk-flex-between uk-flex-middle p-2 px-3">
-                            <h5 class="mb-0"> Default layout</h5>
-                            <div class="buttons">
-                                <a target="_blank" href="default/index.html" class="btn btn-default soft-grey m-0"> Left</a>
-                                <a target="_blank" href="default-rtl/index.html" class="btn btn-default m-0"> Right</a>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-                <div>
-                    <div class="uk-card-default rounded uk-inline-clip">
-                        <img src="assets/images/demos/d-horizontal.png" alt="">
-                        <div class="uk-flex uk-flex-between uk-flex-middle p-2 px-3">
-                            <h5 class="mb-0"> horizontal layout</h5>
-                            <div class="buttons">
-                                <a target="_blank" href="horizontal/index.html" class="btn btn-default m-0"> Left</a>
-                                <a target="_blank" href="horizontal-rtl/index.html" class="btn btn-default m-0">
-                                    Right</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div>
-
-                    <div class="uk-card-default rounded uk-inline-clip">
-                        <img src="assets/images/demos/d-admin.png" alt="">
-                        <div class="uk-flex uk-flex-between uk-flex-middle p-2 px-3">
-                            <h5 class="mb-0">  Admin section</h5>
-                            <div class="buttons">
-                                <a target="_blank" href="admin/dashboard.html" class="btn btn-default m-0"> Left</a>
-                                <a target="_blank" href="admin-rtl/dashboard.html" class="btn btn-default m-0"> Right</a>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-
+                <h4>“ Easy Lerning is the key of the success “ </h4> <p><br> Pandu Arrif Farras </p>
             </div>
 
 
@@ -467,14 +419,28 @@
                     </svg>
                 </div>                     
                 <div class="uk-width-expand"> 
-                    <h5> Made With </h5>
-                    <h1 class="uk-text-  uk-margin-remove-bottom">  Uikit framework </h1>
+                    
+                    <h1 class="uk-text-  uk-margin-remove-bottom">  Temukan Kami </h1>
                     <p class=" uk-text-medium uk-text-light uk-margin-top">
-                            A lightweight and modular front-end framework <br>
-                            for developing fast and powerful web interfaces. </p>
-                    <a href="https://getuikit.com/docs" class="btn btn-white btn-lg" style="color:#273444">Get Started</a>
-                    <a href="https://github.com/uikit/uikit" class="btn btn-outline-white uk-margin-left btn-lg">Github</a>
-                </div>                     
+                        Instan Access for your simple learn.  </p>
+                    
+                        <div class="mt-3" uk-margin>
+
+                            <button type="button" class="btn btn-app-store">
+                                <i class="icon-brand-apple"></i>
+                                <span class="btn-inner--text">Download on the</span>
+                                <span class="btn-inner--brand">App Store</span>
+                              </button>
+                              <button type="button" class="btn btn-app-store">
+                                <i class="icon-brand-google-play"></i>
+                                <span class="btn-inner--text">Download on the</span>
+                                <span class="btn-inner--brand">Play Store</span>
+                              </button>
+
+                            </div>
+
+                
+                    </div>                     
             </div>                 
         </div>
     </div>         
@@ -482,64 +448,61 @@
     <div class="uk-section uk-section-muted pb-2"> 
         <div class="uk-container uk-align-center uk-margin-remove-bottom uk-position-relative uk-margin-medium-top"> 
             <div class="uk-margin-small" uk-grid> 
-                <div class="uk-width-1-3@m uk-width-1-2@s uk-first-column"> 
-                    <a href="#" class="uk-link-heading uk-text-lead uk-text-bold"> <i class=" uil-graduation-hat"></i>  CoursePlus </a> 
-                    <div class="uk-width-xlarge tm-footer-description">A unique and beautiful collection of UI elements that are all flexible and modular.   building the website of your dreams.</div>                         
+                <div class="uk-width-1-3@m uk-width-1-1@s uk-first-column"> 
+                    <a href="#" class="uk-link-heading uk-text-lead uk-text-bold"> <i class=" uil-graduation-hat"></i>  Learning Post </a> 
+
                 </div>                     
                 <div class="uk-width-expand@m uk-width-1-2@s"> 
                     <ul class="uk-list  tm-footer-list"> 
+                        <h5> 
+                            Special Course
+                        </h5>                             
                         <li> 
-                            <a href="#"> Browse Our Library </a> 
+                            <a href="#"> CIF </a> 
                         </li>                             
                         <li> 
-                            <a href="#"> Tutorials/Articles </a> 
+                            <a href="#"> Pelatihan</a> 
                         </li>                             
                         <li> 
-                            <a href="#"> Scripts and themes</a> 
-                        </li>                             
-                        <li> 
-                            <a href="#"> Ebooks</a> 
-                        </li>                             
+                            <a href="#"> Direksi</a> 
+                        </li>                               
                     </ul>                         
                 </div>                     
                 <div class="uk-width-expand@m uk-width-1-2@s"> 
                     <ul class="uk-list tm-footer-list"> 
+                        <h5> 
+                            LeaPost
+                        </h5>                             
                         <li> 
-                            <a href="#"> About us </a> 
+                            <a href="#"> Terms & Conditions </a> 
                         </li>                             
                         <li> 
-                            <a href="#"> Contact Us </a> 
-                        </li>                             
-                        <li> 
-                            <a href="#"> Privacy   </a> 
-                        </li>                             
-                        <li> 
-                            <a href="#">   Policy </a> 
-                        </li>                             
+                            <a href="#"> Privacy Policy   </a> 
+                        </li>                              
                     </ul>                         
                 </div>                     
                 <div class="uk-width-expand@m uk-width-1-2@s"> 
                     <ul class="uk-list  tm-footer-list"> 
+                        <h5> 
+                            Be Our Inspirantion 
+                        </h5>                             
                         <li> 
-                            <a href="#">Web Design </a> 
+                            <a href="#"> Pos Indonesia Development  </a> 
                         </li>                             
                         <li> 
-                            <a href="#">Web Development  </a> 
+                            <a href="#"> support@pos.id </a> 
                         </li>                             
                         <li> 
-                            <a href="#"> iOS Development </a> 
-                        </li>                             
-                        <li> 
-                            <a href="#">  PHP Development </a> 
+                            <a href="#">  021 - 1111 - 2222 </a> 
                         </li>                             
                     </ul>                         
                 </div>                     
             </div>                 
             <hr> 
-            <p class="uk-postion-absoult uk-margin-remove uk-position-bottom-right" style="bottom: 8px;right: 60px;" uk-tooltip="title: Visit Our Site; pos: top-center"> Powered By <a href="#" class="uk-text-bold uk-link-reset"> CoursePlus </a></p> 
+            <p class="uk-postion-absoult uk-margin-remove uk-position-bottom-right" style="bottom: 8px;right: 60px;" uk-tooltip="title: Visit Our Site; pos: top-center"> Powered By <a href="#" class="uk-text-bold uk-link-reset"> PT. Pos Indonesia (Persero) </a></p> 
             <div class="uk-margin-small" uk-grid> 
                 <div class="uk-width-1-2@m uk-width-1-2@s uk-first-column"> 
-                    <p class="uk-text-small"><i class="far fa-copyright"></i> 2019 <span class="uk-text-bold">CoursePlus</span> . All rights reserved.</p> 
+                    <p class="uk-text-small"><i class="far fa-copyright"></i> 2021 <span class="uk-text-bold">Leapost</span>. Pusat Pembelajaran Perposan. Sip Mamen.</p> 
                 </div>                     
                 <div class="uk-width-1-3@m uk-width-1-2@s"> 
                     <a href="#" class="uk-icon-button uk-link-reset" uk-tooltip="title: Our Youtube Chanal; pos: top-center"><i class="fab fa-youtube" style=" color: #fb7575  !important;"></i></a> 

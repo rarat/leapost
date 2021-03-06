@@ -6,8 +6,6 @@
 @section('content')
 
 <div class="page-content-inner">
-
-
     <nav id="breadcrumbs" class="mb-3">
         <ul>
             <li><a href="#"> <i class="uil-home-alt"></i> </a></li>
@@ -15,209 +13,115 @@
 
         </ul>
     </nav>
+    <div class="card">
+        <!-- Card header -->
+        <div class="card-header actions-toolbar border-0">
+            <div class="d-flex justify-content-between align-items-center">
+                <h4 class="d-inline-block mb-0">Employee </h4>
+                <div class="d-flex">
 
-    <div class="d-flex justify-content-between mb-3">
-        <h3> Employee (14) </h3>
-
-        <div>
-            <a href="#" class="btn btn-default">
-                <i class="uil-plus"> </i> New Employee
-            </a>
-        </div>
-    </div>
-
-    <div class="uk-child-width-1-3@m" uk-grid
-        uk-scrollspy="cls: uk-animation-slide-bottom-small; target: > div ; delay: 200">
-
-        <div>
-            <a href="#">
-                <div class="card animate-this uk-inline-clip">
-                    <img src="../assets/images/course/2.png" alt="">
-                    <div class="card-body text-center pb-3">
-                        <h6 class=" mb-0"> Learn Angular Fundamentals </h6>
+                    <a href="#" class="btn btn-icon btn-hover  btn-circle" uk-tooltip="Search product">
+                        <i class="uil-search"></i>
+                    </a>
+                    <div class="uk-drop" uk-drop="mode: click; pos: left-center; offset: 0">
+                        <form class="uk-search uk-search-navbar uk-width-1-1">
+                            <input class="uk-search-input shadow-0 uk-form-small" type="search"
+                                placeholder="Search..." autofocus>
+                        </form>
                     </div>
-                    <div class="card-footer py-0 border-top-0">
-                        <div class="row align-items-center text-center">
-                            <div class="col-6 py-3">
-                                <a href="#" class="text-muted"> 120$ Sales </a>
-                            </div>
-                            <div class="col-6 py-3">
-                                <a href="#" class="text-muted"> 20 Enrolled </a>
-                            </div>
-                        </div>
+
+                    <a href="#" class="btn btn-icon btn-hover  btn-circle" uk-tooltip="filter">
+                        <i class="uil-filter"></i>
+                    </a>
+                    <div uk-dropdown="pos: bottom-right ; mode: click ;animation: uk-animation-scale-up">
+                        <ul class="uk-nav uk-dropdown-nav">
+                            <li class="uk-active"><a href="#"> Newest </a></li>
+                            <li><a href="#">From A-Z</a></li>
+                            <li><a href="#">From Z-A</a></li>
+                        </ul>
                     </div>
+
+
+                    <a href="#" class="btn btn-icon btn-hover  btn-circle" uk-tooltip="More">
+                        <i class="uil-ellipsis-h"></i>
+                    </a>
+                    <div uk-dropdown="pos: bottom-right ; mode: click ;animation: uk-animation-scale-up">
+                        <ul class="uk-nav uk-dropdown-nav">
+                            <li><a href="#"> Refresh </a></li>
+                            <li><a href="#">Manage</a></li>
+                            <li><a href="#">Setting</a></li>
+                        </ul>
+                    </div>
+
+
                 </div>
-            </a>
+            </div>
         </div>
-
-        <div>
-            <a href="#">
-                <div class="card animate-this uk-inline-clip">
-                    <img src="../assets/images/course/3.png" alt="">
-                    <div class="card-body text-center pb-3">
-                        <h6 class=" mb-0"> The Complete JavaScript </h6>
-                    </div>
-                    <div class="card-footer py-0 border-top-0">
-                        <div class="row align-items-center text-center">
-                            <div class="col-6 py-3">
-                                <a href="#" class="text-muted"> 90$ Sales </a>
+        <!-- Table -->
+        <div class="table-responsive">
+            <table class="table align-items-center">
+                <thead>
+                    <tr>
+                        <th scope="col">No</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Joined at</th>
+                        <th scope="col">Enerolled</th>
+                        <th scope="col">Finish Class</th>
+                        <th scope="col">Activity</th>
+                        <th scope="col">
+                            <div>
+                                <a href="#" class="btn btn-default">
+                                    <i class="uil-plus"> </i> New Employee
+                                </a>
+                            </div> </th>
+                    </tr>
+                </thead>
+                <tbody class="list">
+                    <tr>
+                        <th>    1 </th>
+                        <th scope="row">
+                            <div class="media align-items-center">
+                                <div>
+                                    <div class="avatar-parent-child" style="width: max-content">
+                                        <img alt="Image placeholder"
+                                            src="../assets/images/avatars/avatar-2.jpg"
+                                            class="avatar  rounded-circle">
+                                        <span class="avatar-child avatar-badge bg-success"></span>
+                                    </div>
+                                </div>
+                                <div class="media-body ml-4">
+                                    <a href="#" class="name h6 mb-0 text-sm">Stella Johnson</a>
+                                    <small class="d-block font-weight-bold">#1001</small>
+                                </div>
                             </div>
-                            <div class="col-6 py-3">
-                                <a href="#" class="text-muted"> 8 Enrolled </a>
+                        </th>
+                        <td> 10/09/2018 </td>
+                        <td> 15 </td>
+                        <td> $1035,00 </td>
+                        <td>
+                            <div class="progress" style="height: 7px;">
+                                <div class="progress-bar" role="progressbar" style="width: 45%;"></div>
                             </div>
-                        </div>
-                    </div>
-                </div>
-            </a>
+                        </td>
+                        <td class="text-right">
+                            <!-- Actions -->
+                            <div class="actions ml-3">
+                                <a href="#" class="btn btn-icon btn-hover btn-sm btn-circle"
+                                    uk-tooltip="Quick view">
+                                    <i class="uil-external-link-alt "></i> </a>
+                                <a href="#" class="btn btn-icon btn-hover btn-sm btn-circle"
+                                    uk-tooltip="Edit">
+                                    <i class="uil-pen "></i> </a>
+                                <a href="#" class="btn btn-icon btn-hover btn-sm btn-circle"
+                                    uk-tooltip="Delete user">
+                                    <i class="uil-trash-alt text-danger"></i> </a>
+                            </div>
+                        </td>
+                    </tr>
+                    
+                </tbody>
+            </table>
         </div>
-
-        <div>
-            <a href="#">
-                <div class="card animate-this uk-inline-clip">
-                    <img src="../assets/images/course/1.png" alt="">
-                    <div class="card-body text-center pb-3">
-                        <h6 class=" mb-0"> Ultimate Web Developer Course </h6>
-                    </div>
-                    <div class="card-footer py-0 border-top-0">
-                        <div class="row align-items-center text-center">
-                            <div class="col-6 py-3">
-                                <a href="#" class="text-muted"> 230$ Sales </a>
-                            </div>
-                            <div class="col-6 py-3">
-                                <a href="#" class="text-muted"> 21 Enrolled </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </a>
-        </div>
-
-        <div>
-            <a href="#">
-                <div class="card animate-this uk-inline-clip">
-                    <img src="../assets/images/course/5.png" alt="">
-                    <div class="card-body text-center pb-3">
-                        <h6 class=" mb-0"> Ultimate Web Developer Course </h6>
-                    </div>
-                    <div class="card-footer py-0 border-top-0">
-                        <div class="row align-items-center text-center">
-                            <div class="col-6 py-3">
-                                <a href="#" class="text-muted"> 142$ Sales </a>
-                            </div>
-                            <div class="col-6 py-3">
-                                <a href="#" class="text-muted"> 13 Enrolled </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </a>
-        </div>
-
-        <div>
-            <a href="#">
-                <div class="card animate-this uk-inline-clip">
-                    <img src="../assets/images/course/7.png" alt="">
-                    <div class="card-body text-center pb-3">
-                        <h6 class=" mb-0"> Bootstrap Introduction </h6>
-                    </div>
-                    <div class="card-footer py-0 border-top-0">
-                        <div class="row align-items-center text-center">
-                            <div class="col-6 py-3">
-                                <a href="#" class="text-muted"> 80$ Sales </a>
-                            </div>
-                            <div class="col-6 py-3">
-                                <a href="#" class="text-muted"> 6 Enrolled </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </a>
-        </div>
-
-        <div>
-            <a href="#">
-                <div class="card animate-this uk-inline-clip">
-                    <img src="../assets/images/course/2.png" alt="">
-                    <div class="card-body text-center pb-3">
-                        <h6 class=" mb-0"> Learn Angular Fundamentals </h6>
-                    </div>
-                    <div class="card-footer py-0 border-top-0">
-                        <div class="row align-items-center text-center">
-                            <div class="col-6 py-3">
-                                <a href="#" class="text-muted"> 120$ Sales </a>
-                            </div>
-                            <div class="col-6 py-3">
-                                <a href="#" class="text-muted"> 20 Enrolled </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </a>
-        </div>
-
-        <div>
-            <a href="#">
-                <div class="card animate-this uk-inline-clip">
-                    <img src="../assets/images/course/3.png" alt="">
-                    <div class="card-body text-center pb-3">
-                        <h6 class=" mb-0"> The Complete JavaScript </h6>
-                    </div>
-                    <div class="card-footer py-0 border-top-0">
-                        <div class="row align-items-center text-center">
-                            <div class="col-6 py-3">
-                                <a href="#" class="text-muted"> 90$ Sales </a>
-                            </div>
-                            <div class="col-6 py-3">
-                                <a href="#" class="text-muted"> 8 Enrolled </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </a>
-        </div>
-
-        <div>
-            <a href="#">
-                <div class="card animate-this uk-inline-clip">
-                    <img src="../assets/images/course/1.png" alt="">
-                    <div class="card-body text-center pb-3">
-                        <h6 class=" mb-0"> Ultimate Web Developer Course </h6>
-                    </div>
-                    <div class="card-footer py-0 border-top-0">
-                        <div class="row align-items-center text-center">
-                            <div class="col-6 py-3">
-                                <a href="#" class="text-muted"> 230$ Sales </a>
-                            </div>
-                            <div class="col-6 py-3">
-                                <a href="#" class="text-muted"> 21 Enrolled </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </a>
-        </div>
-
-        <div>
-            <a href="#">
-                <div class="card animate-this uk-inline-clip">
-                    <img src="../assets/images/course/5.png" alt="">
-                    <div class="card-body text-center pb-3">
-                        <h6 class=" mb-0"> Ultimate Web Developer Course </h6>
-                    </div>
-                    <div class="card-footer py-0 border-top-0">
-                        <div class="row align-items-center text-center">
-                            <div class="col-6 py-3">
-                                <a href="#" class="text-muted"> 142$ Sales </a>
-                            </div>
-                            <div class="col-6 py-3">
-                                <a href="#" class="text-muted"> 13 Enrolled </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </a>
-        </div>
-
     </div>
 
 
