@@ -9,7 +9,7 @@
     <nav id="breadcrumbs" class="mb-3">
         <ul>
             <li><a href="#"> <i class="uil-home-alt"></i> </a></li>
-            <li> Employee </li>
+            <li> Employee Gan</li>
 
         </ul>
     </nav>

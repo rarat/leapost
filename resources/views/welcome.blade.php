@@ -366,25 +366,25 @@
             <div>
                 <div class="uk-card-default uk-card-hover uk-card-body rounded-lg  animate-this">
                     <img src="assets/images/demos/demo-home-icon-ready.png" class="scale-up-medium mb-3" width="100" alt="">
-                    <p> Operasi </p>
+                    <p> Ready to use </p>
                 </div>
             </div>
             <div>
                 <div class="uk-card-default uk-card-hover uk-card-body rounded-lg animate-this">
                     <img src="assets/images/demos/demo-home-icon-ui.png" class="scale-up-medium mb-3" width="100" alt="">
-                    <p> Akhlak </p>
+                    <p> Premium UI </p>
                 </div>
             </div>
             <div>
                 <div class="uk-card-default uk-card-hover uk-card-body rounded-lg animate-this">
                     <img src="assets/images/demos/demo-home-icon-responsive.png" class="scale-up-medium mb-3" width="100" alt="">
-                    <p>  Penjualan </p>
+                    <p>  Responsive </p>
                 </div>
             </div>
             <div>
                 <div class="uk-card-default uk-card-hover uk-card-body rounded-lg animate-this">
                     <img src="assets/images/demos/demo-home-icon-fast.png" class="animate-this mb-3" width="100" alt="">
-                    <p> Jasa Kurir</p>
+                    <p> Time Saving</p>
                 </div>
             </div>
         </div>
